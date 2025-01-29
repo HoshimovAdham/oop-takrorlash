@@ -11,3 +11,5 @@ class Student:
         if course not in self.courses:
             self.courses.append(course)
     
+    def add_grade(self, grade):
+        self.grades.append(grade)
